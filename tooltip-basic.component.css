@@ -1,0 +1,13 @@
+.btn btn-outline-secondary mr-2 {
+    padding: 50px;
+    background-color: blue;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .btn btn-outline-secondary mr-2:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
